@@ -43,7 +43,7 @@ function render(variables = {}) {
   }</h3>
           <ul class="position-right">
             <li><a href="${
-              variables.twitter == null ? "https://x.com/" : variables.twitter
+              variables.twitter == null ? "https://x.com/4geeksacademy" : variables.twitter
             }"><i class="fab fa-twitter"></i></a></li>
             <li><a href="${
               variables.github == null
