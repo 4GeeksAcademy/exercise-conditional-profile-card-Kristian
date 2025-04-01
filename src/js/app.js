@@ -50,8 +50,16 @@ function render(variables = {}) {
                 ? "https://github.com/4geeksacademy"
                 : variables.github
             }"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/school/4geeksacademy"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/4geeksacademy"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="${
+              variables.linkedin == null
+                ? "https://linkedin.com/school/4geeksacademy"
+                : variables.linkedin
+            }"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="${
+              variables.instagram == null
+                ? "https://linkedin.com/school/4geeksacademy"
+                : variables.instagram
+            }"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
