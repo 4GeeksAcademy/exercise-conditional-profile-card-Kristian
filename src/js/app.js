@@ -49,22 +49,22 @@ function render(variables = {}) {
             <li><a href="${
               variables.twitter == null
                 ? "https://x.com/4geeksacademy"
-                : variables.twitter
+                : "https://x.com/" + variables.twitter
             }"><i class="fab fa-twitter"></i></a></li>
             <li><a href="${
               variables.github == null
                 ? "https://github.com/4geeksacademy"
-                : variables.github
+                : "https://github.com/" + variables.github
             }"><i class="fab fa-github"></i></a></li>
             <li><a href="${
               variables.linkedin == null
                 ? "https://linkedin.com/school/4geeksacademy"
-                : variables.linkedin
+                : "https://linkedin.com/" + variables.linkedin
             }"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="${
               variables.instagram == null
-                ? "https://linkedin.com/school/4geeksacademy"
-                : variables.instagram
+                ? "https://instagram.com/4geeksacademy"
+                : "https://instagram.com/" + variables.instagram
             }"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
