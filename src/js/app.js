@@ -59,7 +59,7 @@ function render(variables = {}) {
             <li><a href="${
               variables.linkedin == null
                 ? "https://linkedin.com/school/4geeksacademy"
-                : "https://linkedin.com/" + variables.linkedin
+                : "https://linkedin.com/in/" + variables.linkedin
             }"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="${
               variables.instagram == null
